@@ -8,18 +8,23 @@ width: 100vw;
     height: 100vh;
     background-image: linear-gradient(90deg, #002F52 35%, #326589);
 
+margin: 0;
+
+
+
+
 `
 
 
 function App() {
   return(
     <AppContainer>
-      <header>
+        <form method='post'>
       <Login/>
-      </header>
+      </form>
     </AppContainer>
 
   )
 }
 
-export default App
+export default App 
