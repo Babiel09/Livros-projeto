@@ -2,13 +2,6 @@ import styled from "styled-components";
 
 const SectionInput = styled.section `
     text-align: center;
-    padding: 40px;
-    background-color: #1e63d6;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    width: 100%;
-
 `
 
 
