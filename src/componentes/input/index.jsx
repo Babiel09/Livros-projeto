@@ -12,6 +12,32 @@ const SectionInput = styled.section `
 `
 
 
+const InputContainerPass = styled.input `
+width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 2px solid #43dffb;
+    border-radius: 25px;
+    background-color: #0c4ba1;
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+    &::placeholder {
+        color: #b3c0d9;
+    }
+
+    &:focus {
+        outline: none;
+        border-color: #1ecae0;
+        box-shadow: 0 0 10px #1ecae0;
+    }
+
+`
+
+
+
 const InputContainer = styled.input `
 width: 100%;
     padding: 10px;
@@ -80,12 +106,12 @@ function Input(){
             >
             </InputContainer>
             <br/>
-            <InputContainer
+            <InputContainerPass
             placeholder="Digite sua senha"
-            type="passord"
+            type="password"
             required
             >            
-            </InputContainer>
+            </InputContainerPass>
             <br/>
             <ButãoContainer >Efetuar o Login</ButãoContainer>
         </SectionInput>
